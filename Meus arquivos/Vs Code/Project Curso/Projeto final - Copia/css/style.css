@@ -1,0 +1,70 @@
+body{background-image: url(../imagens/nuvem.jpg);}
+
+#banner{
+    background-image:url(../imagens/Capturar\ \(1\).JPG);
+min-height: 340px;
+
+}
+
+#menu{
+    background-image: linear-gradient(to bottom, #FFDEAD, #F4A460);
+    min-height: 40px;
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: center;
+}
+#menu ul li{
+    list-style: none;
+    display: inline;
+margin-left: 50px;
+margin-right: 50px;
+
+}
+
+#menu ul li a{
+color:blueviolet;
+text-decoration: none;
+}
+
+#menu ul li a:hover{
+font-size: 20px;
+color:aqua;
+
+}
+
+#col_esq{
+    background-image: linear-gradient(to bottom, #CD853F, #B8860B);
+    min-height: 600px;
+
+}
+
+#col_esq ul li a{
+text-decoration: none;
+list-style: none;
+color: blueviolet;
+}
+
+#col_esq ul li a:hover{
+    font-size: 20px;
+    color:aqua;
+}
+
+
+#central{
+    background-image: linear-gradient(to bottom, #FFDEAD,#CD853F);
+    min-height: 600px;
+
+
+}
+#rodape{
+    background-color: gray;
+    min-height: 150px;
+    margin-top: 10px;
+background-image:linear-gradient(to bottom, #FFDEAD, yellow);
+text-align: center;
+}
+
+
+
+
+
