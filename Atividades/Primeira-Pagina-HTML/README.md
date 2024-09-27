@@ -1,0 +1,1 @@
+Essa atividade foi a primeira criação de um site basico em html, com a intenção de colocarmos em pratica o que aprendemos nas aulas anteriores e juntarmos tudo em uma so, utilizando um pouco de cada, para formarmos um site sobre algum assunto que escolhemos, que no meu caso foi Estetica e saude, com isso criei a Éclat.
