@@ -1,0 +1,1 @@
+Nessa aula nos aprofundamos no CSS, onde aprendemos como estilizar as bordas do nosso site e os tipos de bordas. Aprendemos também como alterar os tamanhos do margin e paddin, e após isso usamos o css para manipular os tamanhos da largura e altura. E com isso, manipulamos as Divs colocando cor, alinhando o texto e alterando seu tamanho.
