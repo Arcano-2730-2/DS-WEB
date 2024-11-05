@@ -1,0 +1,53 @@
+label, input, select, textarea {
+    display: block;
+    width: 95%;
+    padding: 4px; /* Reduza este valor se necessário */
+    margin-bottom: 5px; /* Menor espaço entre label e input */
+    font-family: "Roboto", sans-serif;
+    border-radius: 7px;
+}
+
+form {
+    width: 300px;
+    margin: auto;
+    background-color: rgb(232, 24, 221);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+#enviar, #limpar {
+    width: 95%;
+    border: 2px solid gray;
+    background-color: rgb(115, 115, 137);
+    font-weight: bold;
+    cursor: pointer;
+    padding: 16px;
+    font-size: 14px;
+    letter-spacing: 0.3em;
+    border-radius: 15px;
+}
+
+#enviar:hover, #limpar:hover {
+    background-color: #b0e0b2;
+    color: white;
+    transition: all linear 0.3s;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border: solid 3px black;
+}
+
+#texto{
+padding: 8px;
+font-size: 19px;
+text-align: center;
+font-weight: bold;
+}

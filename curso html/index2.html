@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Cadastro Academia</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" required autofocus name="nome" id="nome"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" required name="email" id="email" placeholder="email@email.com"><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" required name="telefone" id="telefone"><br>
+        
+        <label for="dt-nasc">Data de Nascimento:</label>
+        <input type="date" required name="dt-nasc" id="dt-nasc"><br>
+        
+        <label for="peso" class="medidas">Peso:</label>
+<input type="number" class="medidas" step="0.1" required name="peso" id="peso">
+
+<label for="altura" class="medidas">Altura:</label>
+<input type="number" class="medidas" step="0.01" required name="altura" id="altura">
+        
+        <label for="foto">Foto:</label>
+        <input type="file" required name="arquivo" id="foto"><br><br>
+
+        <label>Plano:</label>
+        <input type="radio" name="Plano" id="sem" class="emlinha">
+        <label class="emlinha" for="sem">Semanal:</label>
+        
+        <input class="emlinha" type="radio" name="Plano" id="men" >
+        <label class="emlinha" for="men">Mensal:</label>
+        
+        <input class="emlinha" type="radio" name="Plano" id="anual">
+        <label class="emlinha" for="anual">Anual:</label><br><br> 
+        
+
+        <label>Dias da Semana</label>
+        <input class="emlinha" type="checkbox" name="segunda">
+        <label class="emlinha" for="seg">Segunda-feira</label>
+
+        <input class="emlinha" type="checkbox" name="terça" id="ter">
+        <label class="emlinha" for="ter">Terça-feira</label>
+
+        <input class="emlinha" type="checkbox" name="quarta" id="qua">
+        <label class="emlinha" for="qua">Quarta-Feira</label>
+
+        <input class="emlinha" type="checkbox" name="quinta" id="qui">
+        <label class="emlinha" for="qui">Quinta-Feira</label>
+
+        <input class="emlinha" type="checkbox" name="sexta" id="sex">
+        <label class="emlinha" for="sex">Sexta-Feira</label>
+
+        <label>Objetivo principal do seu treino</label>
+        <select name="Objetivo" required>
+            <option value="">Selecione...</option>
+            <option value="massa">Ganho de massa muscular</option>
+            <option value="cardio"> Melhoria da saúde cardiovascular</option>
+            <option value="flex"> Melhora de flexibilidade</option>
+            <option value="mental">Melhoria da saúde mental</option>
+            <option value="outro">Outro</option>
+        </select>
+
+        <br>
+         
+        <label>Informações adicionais:</label>
+        <textarea required name="Informacoes" rows="8" cols="54" placeholder="Digite alguma informação que achar ncessário" ></textarea>
+        
+        <input type="submit" name="enviar" id="enviar" value="Enviar">
+        
+
+
+    </form>
+</body>
+</html>
