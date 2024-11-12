@@ -1,0 +1,28 @@
+#enviar{
+    width: 96%;
+    border: 2px solid gray;
+    background-color: blue;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 16px;
+    font-size: 14px;
+    letter-spacing: 0.3em;
+    text-align: center;
+}
+#enviar:hover{
+    background-color: #4CAF50;
+    color:white
+    transition:all linear 0.3s;
+}
+#texto{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#texto2{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

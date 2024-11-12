@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconchamadact" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Cadastro Escola</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form action="./index.php" method="post" enctype="multipart/form-data">
+        <div class="form-row">
+            <div class="form-group">
+                <label for="nome">Aluno:</label>
+                <input type="text" required autofocus name="nome" id="nome">
+            </div>
+            <div class="form-group">
+                <label for="cha">N° Chamada:</label>
+                <input type="number" step="0.1" required name="cha" id="cha">
+            </div>
+        </div>
+    
+        <div class="form-row">
+            <div class="form-group">
+                <label for="rm">RM:</label>
+                <input type="number" name="rm" id="rm">
+            </div>
+            <div class="form-group">
+                <label for="patrimonio">Patrimônio:</label>
+                <input type="number" name="patrimonio" id="patrimonio"> 
+            </div>
+            <div class="form-group">
+                <label for="numero_maquina">Número da Máquina:</label>
+                <input type="number" name="numero_maquina" id="numero_maquina"> 
+            </div>
+        </div>
+    
+        <div class="form-group">
+            <label for="foto">Foto:</label>
+            <input type="file" required name="arquivo" id="foto">
+        </div>
+    
+        <div class="form-actions">
+            <input type="submit" name="enviar" id="enviar" value="Enviar">
+            <input type="reset" name="limpar" id="limpar" value="Limpar">
+        </div>
+    </form>
+
+    
+
+
+</body>
+</html>
