@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclasse</title>
+    <style>
+        /*Exemplo de Hover*/
+        .button-hover:hover{
+            background-color: lightgreen;
+            width: 100px;
+            height: 100px;
+        }
+        /*Exemplo de Active*/
+        .button-active:active {
+            transform: scale(0.85);
+        }
+        /*Exemplo de Focus*/
+        .input-focus:focus {
+            border-color: blue;
+            color: lightsalmon;
+            background-color: aqua;
+        }
+        /*Exemplo de Checked*/
+        .radio-checked:checked{
+            transform: scale(1.5);
+        }
+        .checkbox-checked:checked{
+            transform: scale(1.5);
+        }
+        /*Exemplo de Pseudoclasse para link*/
+        a:link{
+            color: chocolate;
+        }
+        a:visited{
+            color: lightpink;
+        }
+        /*Exemplo de pseudoclasse vazia*/
+        .div-vazia{
+            height: 100px;
+            width: 100px;
+            background-color: purple;
+        }
+        div:empty{
+            display: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h3>Exemplo de Hover</h3>
+        <button class="button-hover">Clique Aqui!</button>
+    </div>
+    <div>
+        <h3>Exemplo de Hover</h3>
+        <button class="button-active">Clique Aqui!</button>
+    </div>
+    <div>
+        <h3>Exemplo de focus</h3>
+        <input type="text" class="input-focus" placeholder="Clique Aqui!">
+    </div>
+    <div>
+        <h3>Exemplo de Checked</h3>
+        <label>Radio Button</label>
+        <input type="radio" class="radio-checked"><input type="radio" class="radio-checked">
+        <label>Checkbox</label>
+        <input type="checkbox" class="checkbox-checked">
+    </div>
+    <div>
+        <h3>Exemplo de Pseudoclasse para link</h3>
+        <a href="#">link 1</a>
+        <a href="#">link 2</a>
+        <a href="#">link 3</a>
+        <a href="#">link 4</a>
+        <a href="#">link 5</a>
+        <a href="#">link 6</a>
+        <a href="#">link 7</a>
+        <a href="#">link 8</a>
+        <a href="#">link 9</a>
+        <a href="#">link 10</a>
+    </div>
+    <div class="div-vazia"></div>
+</body>
+</html>

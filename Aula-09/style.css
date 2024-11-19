@@ -1,0 +1,117 @@
+body {
+    background: linear-gradient(45deg, lightblue, lightgreen);
+    margin: 0; /* Remove a margem padrão do body */
+    height: 100vh; /* Garante que o body tenha altura total da viewport */
+}
+div{
+    display: inline-block;
+}
+.fundo {
+    display: flex;
+}
+
+.box {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    transition: transform 0.5s;
+    text-align: center;
+    }
+.box:hover {
+    transform: scale(1.5);
+    }
+
+.box-rotate {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    transition: transform 0.5s;
+    margin: 20px;
+    text-align: center;
+    }
+.box-rotate:hover {
+    transform: rotate(45deg);
+    }
+/* Define os passos da animação */
+@keyframes moverEfeito {
+    0% {
+        transform: translateY(0);
+        background-color: red;
+    }
+    50% {
+        transform: translateY(200px);
+        background-color: yellow;
+    }
+    100% {
+        transform: translateY(0);
+        background-color: green;
+    }
+}
+/* Aplica a animação ao elemento */
+.animado {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 20px;
+    text-align: center;
+
+}
+.animado:hover{
+    animation: moverEfeito 4s ease-in-out infinite;
+}
+.animado2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 20px;
+    text-align: center;
+    border-radius: 500px;
+
+}
+.animado2:hover{
+    animation: moverEfeito 4s ease-in-out infinite;
+}
+
+.box-gradiente {
+    margin: 20px;
+    text-align: center;
+    color: white;
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(45deg, chocolate, black, #3498db, #9b59b6);
+    transition: transform 0.5s;
+}
+
+.box-gradiente:hover {
+    animation: moverEfeito 4s ease-in-out infinite;
+}
+
+.box-opacity {
+    margin: 20px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    opacity: 1;
+    transition: opacity 0.5s;
+    }
+.box-opacity:hover {
+    opacity: 0.5;
+    }
+
+.box-translate {
+    margin: 20px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    transition: transform 0.5s;
+    }
+.box-translate:hover {
+    
+    transform: translate(0, 50px);
+    
+    
+    
+    }
